@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GeoFence NDVI Analyzer</title>
+
+  <!-- Check Login -->
+  <script>
+    if (!localStorage.getItem("loggedIn")) {
+      window.location.href = "login.html";
+    }
+  </script>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+  <script src="assets/leaflet/leaflet.js"></script>
+
+  <!-- Leaflet Draw -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+
+  <!-- Turf.js -->
+  <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Custom -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="appContainer">
+    <header class="compact-header">
+      <h1 class="app-title">GeoFence NDVI</h1>
+      <div class="controls">
+        <button id="markBtn" class="glass-btn primary">📍 Mark</button>
+        <button id="createBtn" class="glass-btn secondary" disabled>🛡️ Fence</button>
+        <select id="mapStyle" class="glass-select">
+          <option value="osm">🗺️ OSM</option>
+          <option value="satellite">🌐 Satellite</option>
+          <option value="night">🌙 Night</option>
+        </select>
+        <button onclick="logout()" class="glass-btn logout">🚪 Logout</button>
+      </div>
+    </header>
+
+    <div id="mapContainer">
+      <div id="map"></div>
+      <div id="resultsPanel" class="glass">
+        <h3>📊 Fence Analysis</h3>
+        <div id="resultContent">Draw or walk a polygon to analyze vegetation & buildings.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function logout() {
+      localStorage.removeItem("loggedIn");
+      window.location.href = "login.html";
+    }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
