@@ -8,7 +8,14 @@ Perfect for **urban monitoring, smart agriculture**, and **sustainable land anal
 
 ## 📸 Interface Preview
 
-![Dashboard Preview](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/frontend/assets/EARTH.jpg)
+### 🌐 Login Page  
+[![Login Page](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/LoginPage.png)]
+
+### 📝 Register Page  
+[![Register Page](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/RegisterPage.png)]
+
+### 🗺️ Map View  
+[![Map View](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/MapView.png)]
 
 ---
 
