@@ -9,13 +9,13 @@ Perfect for **urban monitoring, smart agriculture**, and **sustainable land anal
 ## 📸 Interface Preview
 
 ### 🌐 Login Page  
-[![Login Page](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/LoginPage.png)]
+![Login Page](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/LoginPage.png)
 
 ### 📝 Register Page  
-[![Register Page](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/RegisterPage.png)]
+![Register Page](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/RegisterPage.png)
 
 ### 🗺️ Map View  
-[![Map View](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/MapView.png)]
+![Map View](https://raw.githubusercontent.com/sanjaynesan-05/GEOFENCE/main/MapView.png)
 
 ---
 
@@ -23,17 +23,17 @@ Perfect for **urban monitoring, smart agriculture**, and **sustainable land anal
 
 ### 🌐 Frontend
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)\
-[![CSS3](https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)\
-[![Leaflet.js](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)](https://leafletjs.com)\
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Leaflet.js](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)](https://leafletjs.com)
 [![Turf.js](https://img.shields.io/badge/Turf.js-5cba47?style=for-the-badge&logo=javascript&logoColor=white)](https://turfjs.org)
 
 ### ⚙️ Backend
 
-[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)\
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)\
-[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org)\
-[![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-34A853?style=for-the-badge&logo=googleearth&logoColor=white)](https://earthengine.google.com)\
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org)
+[![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-34A853?style=for-the-badge&logo=googleearth&logoColor=white)](https://earthengine.google.com)
 [![Bcrypt](https://img.shields.io/badge/Bcrypt-ffcc00?style=for-the-badge&logo=lock&logoColor=black)](https://pypi.org/project/bcrypt)
 
 ---
