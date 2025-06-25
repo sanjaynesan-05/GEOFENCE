@@ -52,3 +52,90 @@ Built using modern **HTML/CSS/JS**, **Leaflet.js**, **Turf.js**, and a **Flask +
 ```bash
 git clone https://github.com/sanjaynesan-05/GEOFENCE.git
 cd GEOFENCE
+### 2\. Backend Setup
+
+bash
+
+CopyEdit
+
+`cd backend python -m venv venv venv\Scripts\activate   # or source venv/bin/activate on macOS/Linux pip install -r requirements.txt python app.py`
+
+🔑 _Make sure you're authenticated with **Google Earth Engine** (via `earthengine authenticate`) and update your project ID in `app.py`._
+
+### 3\. Frontend Setup
+
+No frameworks required.
+
+Simply open:
+
+bash
+
+CopyEdit
+
+`frontend/index.html`
+
+✅ Or use **Live Server** in VS Code for better development flow.
+
+* * *
+
+## 📂 Folder Structure
+
+pgsql
+
+CopyEdit
+
+`GEOFENCE/ ├── backend/ │   ├── app.py                 → Flask + Earth Engine backend │   ├── users.db               → SQLite DB storing user credentials │   ├── requirements.txt       → Python dependencies │ ├── frontend/ │   ├── index.html             → Main map UI │   ├── login.html             → Login screen │   ├── register.html          → Registration screen │   ├── style.css              → UI styles (glassmorphism) │   ├── script.js              → Leaflet map + NDVI fetch logic │   └── assets/ │       ├── EARTH.jpg          → Background image │       └── leaflet/ │           ├── leaflet.css │           └── leaflet.js └── README.md`
+
+* * *
+
+## 🔐 Authentication Flow
+
+*   ✅ Register user → stores `bcrypt`\-hashed password in `users.db`
+    
+*   🔓 Login with correct credentials → sets `localStorage.loggedIn = true`
+    
+*   🔁 Redirect to `index.html` if authenticated
+    
+*   🚪 Logout clears session and returns to login screen
+    
+
+* * *
+
+## 🛠️ Future Scope
+
+*   📤 Export NDVI reports to **PDF/CSV**
+    
+*   📈 Add NDVI **timeseries visualizations**
+    
+*   👥 Support **Admin vs User** role access
+    
+*   📲 Convert to **PWA** (installable offline app)
+    
+*   💾 Save multiple geofences and compare changes
+    
+
+* * *
+
+## 🤝 Contribution
+
+Pull requests are welcome!  
+For major updates, open an issue first to discuss your proposal.
+
+* * *
+
+## 📄 License
+
+MIT © [Sanjay Nesan J](https://github.com/sanjaynesan-05)
+
+* * *
+
+## 💬 Community
+
+Let’s build open-source geospatial tools together 🌍  
+Star ⭐ the repo, fork it, and share your feedback!
+
+markdown
+
+CopyEdit
+
+``Let me know if you'd like me to include:  - A preview GIF or screenshot of the map view - GitHub Pages setup for the frontend   - `dashboard.png` badge for visuals   - Shields.io build/tech badges at the top  Just ask and I’ll customize it further.``
