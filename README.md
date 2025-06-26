@@ -122,7 +122,7 @@ Pull requests are welcome.
 For major changes, open an issue first to discuss improvements.
 
 ## 📄 License
-MIT © Sanjay Nesan J
+MIT © [Sanjay Nesan J] (https://github.com/sanjaynesan-05)
 
 ## 💬 Community
 Let's build impactful geospatial tools together 🌍
